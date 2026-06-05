@@ -100,7 +100,7 @@ jobs:
 
   build-and-release:
     needs: increment-version
-    uses: kse-bd8338bbe006/kse-labs-trusted-workflows/.github/workflows/go-docker-release.yaml@main
+    uses: kse-kyrylo0206/kse-labs-trusted-workflows/.github/workflows/go-docker-release.yaml@main
     secrets: inherit
     with:
       go-version: '1.21'
